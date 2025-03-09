@@ -1,0 +1,36 @@
+body {
+  background: black;
+
+  width: 100dvw;
+  height: 100dvh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+:root {
+  /* BACKGROUNDS */
+  --background-header-main-footer: rgb(7, 54, 66);
+  --background-image-header-footer: radial-gradient(
+    circle,
+    white,
+    rgba(0, 228, 255, 0.6)
+  );
+  --background-image-main: linear-gradient(
+    to left,
+    white,
+    rgba(0, 178, 255, 0.5)
+  );
+
+  /* BORDERS */
+  --silver-borders-header-footer: 0.44rem solid rgb(184, 184, 184);
+
+  /* SHADOWS */
+  --shadows-header: inset 0 -0.2rem 0.3rem 0.1rem;
+  --shadows-footer: inset 0 0.2rem 0.3rem 0.1rem;
+
+  /* SIZES */
+  --heights-header-footer: 17%;
+}

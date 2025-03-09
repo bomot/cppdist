@@ -1,0 +1,14 @@
+header {
+  background-color: var(--background-header-main-footer);
+  background-image: var(--background-image-header-footer);
+
+  border-bottom: var(--silver-borders-header-footer);
+
+  box-shadow: var(--shadows-header);
+
+  width: 100%;
+  height: var(--heights-header-footer);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
