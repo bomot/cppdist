@@ -1,0 +1,20 @@
+.nav-butt {
+  border: var(--silver-borders-nav-butt);
+  border-radius: 20%;
+
+  box-shadow: var(--shadows-nav-butt);
+
+  background-image: radial-gradient(circle, white, rgba(255, 255, 255, 0.9));
+
+  color: black;
+  text-decoration: none;
+
+  font-family: sans-serif;
+  font-weight: 700;
+
+  width: 38%;
+  height: 62%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

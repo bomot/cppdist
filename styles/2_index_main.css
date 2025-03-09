@@ -2,10 +2,11 @@ main {
   background-color: var(--background-header-main-footer);
   background-image: var(--background-image-main);
 
-  box-shadow: inset 0 -0.2rem 0.3rem, inset 0 0.2rem 0.3rem;
+  box-shadow: var(--shadows-main);
 
   width: 100%;
-  height: 66%;
+  height: var(--height-main);
+
   display: flex;
   align-items: center;
   justify-content: start;
