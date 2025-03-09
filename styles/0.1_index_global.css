@@ -34,7 +34,7 @@ body {
   /* SHADOWS */
   --shadows-header: inset 0 -0.2rem 0.3rem 0.1rem;
   --shadows-footer: inset 0 0.2rem 0.3rem 0.1rem;
-  --shadows-nav-butt: inset 0 0 0.4rem 0.2rem, 0 0 0.2rem 0.1rem;
+  --shadows-nav-butt: inset 0 0 0.4rem 0.2rem, 0 0 0.24rem 0.16rem;
 
   --shadows-main: inset 0 -0.2rem 0.3rem, inset 0 0.2rem 0.3rem;
   --shadows-card: inset 0 0 0.2rem 0.1rem, 0 0 0.1rem 0.1rem;
