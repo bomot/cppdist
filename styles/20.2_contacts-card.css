@@ -1,0 +1,64 @@
+.contacts-card {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  margin-top: 2%;
+}
+
+.contacts-card div {
+  width: 100%;
+  height: 14%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  margin-left: 5%;
+}
+
+#working-hours {
+    justify-content: center;
+}
+
+#working-hours-details {
+    justify-content: center;
+}
+
+.contacts-card div span {
+  margin-right: 4%;
+}
+.contacts-card div span:last-of-type {
+  margin-right: 0;
+}
+
+
+#where-am-i {
+    width: 100%;
+    height: 28%;
+}
+#where-am-i span {
+  padding: 2% 2.8% 2% 2.8%;
+  margin-right: 4%;
+
+  font-size: 1.54rem;
+}
+
+#where-am-i span:nth-child(1) {
+  background: linear-gradient(to left, white, rgb(220, 240, 255));
+  font-size: 1.44rem;
+}
+
+#where-am-i span:not(:first-child) {
+  border: 0.08rem solid rgb(148, 148, 148);
+  background: linear-gradient(to left, white, rgba(255, 0, 0, 0.8));
+
+  box-shadow: inset 0 0 0.1rem 0.1rem, 0 0 0.1rem 0.1rem, 0.1rem 0 0.1rem 0.1rem;
+}
+
+#where-am-i span:last-of-type {
+  margin-right: 0;
+}
