@@ -18,7 +18,7 @@
   justify-content: start;
 }
 
-.contacts-card div:nth-child(-n+3) {
+.contacts-card div:nth-child(-n + 3) {
   margin-left: 5%;
 }
 
@@ -33,6 +33,7 @@
 .contacts-card div span {
   margin-right: 4%;
 }
+
 .contacts-card div span:last-of-type {
   margin-right: 0;
 }
@@ -61,4 +62,16 @@
 
 #where-am-i span:last-of-type {
   margin-right: 0;
+}
+
+#phone-number img {
+  width: 40px;
+  height: 40px;
+}
+#phone-number img:first-of-type {
+  margin-right: 4%;
+}
+
+#phone-number span:last-of-type {
+  margin-right: 4%;
 }
