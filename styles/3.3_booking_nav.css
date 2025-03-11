@@ -13,8 +13,8 @@ footer nav {
   background-image: radial-gradient(circle, white, rgba(128, 68, 18, 0.9));
 }
 
-#booking {
+#guide {
   border-right: none;
   border-radius: 20% 0 0 20%;
-  background-image: radial-gradient(circle, white, rgba(255, 128, 0, 0.9));
+  background-image: radial-gradient(circle, white, rgba(0, 255, 128, 0.9));
 }
